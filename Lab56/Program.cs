@@ -1,6 +1,6 @@
 ﻿int F1(int x, int y)
 {
-    return x * y;
+    return x * y + 100;
 }
 
 int F2(int x, int y)
@@ -10,7 +10,7 @@ int F2(int x, int y)
 
 int F3(int x, int y)
 {
-    return (F1(x, y) + F1(x, y)) / F1(x, y);
+    return (F1(x, y) + F1(x, y)) * F1(x, y);
 }
 
 Console.WriteLine("1 тест");
