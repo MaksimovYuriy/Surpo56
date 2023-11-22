@@ -1,6 +1,6 @@
 ﻿int F1(int x, int y)
 {
-    return x * y + 5;
+    return 2 * x * y + 5;
 }
 
 int F2(int x, int y)
