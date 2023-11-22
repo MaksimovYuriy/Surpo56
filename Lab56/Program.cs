@@ -25,3 +25,10 @@ for (int i = 0; i < 5; i++)
 {
     Console.WriteLine(F3(i, i));
 }
+
+Console.WriteLine();
+Console.WriteLine("3 тест");
+for(int i = 0;i < 20; i += 3)
+{
+    Console.WriteLine(F3(i, i) + F2(i + 1, i + 2));
+}
